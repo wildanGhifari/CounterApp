@@ -10,4 +10,7 @@ function countNewUser() {
 function save() {
     let countOrder = count + " - ";
     prevOrder.textContent += countOrder;
+
+    countEl.textContent = 0;
+    count = 0;
 }
