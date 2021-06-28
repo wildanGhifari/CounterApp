@@ -62,17 +62,37 @@ body {
 }
 
 button {
+    margin-right: 12px;
     padding: 12px 24px;
     border: none;
     border-radius: 25px;
-    color: #fff;
-    background-color: blue;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
 }
 
-button:hover {
+#count-btn {
+    color: #333;
+    background-color: #fff;
+    border: solid 1px blue;
+}
+
+#count-btn:hover {
+    color: #fff;
     background-color: darkblue;
     transition: 0.3s;
+}
+
+#save-btn {
+    color: #fff;
+    background-color: blue;
+}
+
+#save-btn:hover {
+    background-color: darkblue;
+    transition: 0.3s;
+}
+
+#prev-order {
+    margin-top: 48px;
 }
